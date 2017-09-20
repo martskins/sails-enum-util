@@ -7,6 +7,10 @@
     "prepublish": "babel src --presets babel-preset-es2015 --out-dir dist",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martskins/sails-enum-util.git"
+  },
   "keywords": [
     "sails",
     "enum"
