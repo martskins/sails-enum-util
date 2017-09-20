@@ -30,7 +30,7 @@ class SailsEnum {
 
     sails.on('lifted', function () {
       let Model = sails.models[self.identity];
-      data.forEach(x => Modelcreate(x, function (err, created) {
+      data.forEach(x => Model.create(x, function (err, created) {
         if (err) {
           throw err;
         }
