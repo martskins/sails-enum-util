@@ -1,6 +1,6 @@
 {
   "name": "sails-enum-util",
-  "version": "1.0.5",
+  "version": "1.0.5a",
   "description": "Utility to create Enums that behave like models living in memory",
   "main": "dist/index.js",
   "scripts": {
